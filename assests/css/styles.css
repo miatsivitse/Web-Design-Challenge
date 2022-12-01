@@ -1,0 +1,18 @@
+body {
+    background: pink
+}
+
+h1 {
+    font-size: 80px;
+}
+
+.navbar {
+    padding: 10px;
+    background: green;
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+}
+
