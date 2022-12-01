@@ -45,3 +45,8 @@ h1 {
     color: rgb(78, 160, 126);
     font-size: 50px;    
 }
+
+.thumbnails {
+    height: 20px;
+    width: 20px;
+}
