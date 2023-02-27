@@ -17,7 +17,7 @@
 <!--navbar start-->  
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand active" aria-current="page" href="./index.html">Latitude</a>
+          <a class="navbar-brand active" aria-current="page" href="./index.html">Weather Analysis</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -30,13 +30,13 @@
                 <a class="nav-link" href="./data.html">Data</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="./plots.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="./plots.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
                   Plots</a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="./visualizations/temp.html">Max Temperature</a></li>
-                  <li><a class="dropdown-item" href="./visualizations/humidity.html">Humidity</a></li>
-                  <li><a class="dropdown-item" href="./visualizations/cloudiness.html">Cloudiness</a></li>
-                  <li><a class="dropdown-item" href="./visualizations/wind.html">Wind Speed</a></li>
+                <ul class="dropdown-menu">
+                  <li><a href="visualizations/temp.html">Max Temperature</a></li>
+                  <li><a href="visualizations/humidity.html">Humidity</a></li>
+                  <li><a href="visualizations/cloudiness.html">Cloudiness</a></li>
+                  <li><a href="visualizations/wind.html">Wind Speed</a></li>
                 </ul>
               </li>
             </ul>
@@ -44,9 +44,7 @@
         </div>
       </nav>
 <!--navbar end-->  
-<br>
-<br>
-<br>
+
 <!--Container-->  
 <!--Visualizations-->
     <div class="container">
@@ -59,20 +57,20 @@
             </div>
             <div class="col-md-6">
                 <div class="box">
-                <h5>Visualizations</h5>
-                <div class="thumbnails">
-                    <a target="_blank" href="visualizations/temp.html">
-                        <img src="/assests/images/Fig1.png" alt="Latitude vs. Temperature">
-                        </a>
-                    <a target="_blank" href="visualizations/humidity.html">
-                            <img src="/assests/images/Fig2.png" alt="Latitude vs. Humidity">
-                        </a>
-                    <a target="_blank" href="visualizations/cloudiness.html">
-                            <img src="/assests/images/Fig3.png" alt="Latitude vs. Cloudiness">
-                        </a>
-                    <a target="_blank" href="visualizations/wind.html">
-                            <img src="/assests/images/Fig4.png" alt="Latitude vs. Wind Speed">
-                        </a>
+                <h3>Visualizations</h3>
+                <div class="row">
+                    <a href="visualizations/temp.html">
+                    <img src="assests/images/Fig1.png" alt="Latitude vs. Temperature">
+                    </a>
+                    <a href="visualizations/humidity.html">
+                    <img src="assests/images/Fig2.png" alt="Latitude vs. Humidity">
+                    </a>
+                    <a href="visualizations/cloudiness.html">
+                    <img src="assests/images/Fig3.png" alt="Latitude vs. Cloudiness">
+                    </a>
+                    <a href="visualizations/wind.html">
+                    <img src="assests/images/Fig4.png" alt="Latitude vs. Wind Speed">
+                    </a>
                 </div>
             </div>
         </div>
